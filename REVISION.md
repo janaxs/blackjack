@@ -1,6 +1,12 @@
 Revision history
 ===========================
 
+v1.0.1 (2017-10-26)
+---------------------------
+
+* Add codeclimate and codacy services for code quality.
+
+
 v1.0.0 (2017-10-26)
 ---------------------------
 

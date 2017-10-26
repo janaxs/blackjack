@@ -164,6 +164,8 @@ update:
 .PHONY: tag-prepare
 tag-prepare:
 	@$(call HELPTEXT,$@)
+	grep '^v[0-9]\.' REVISION.md | head -1
+	grep version package.json
 
 
 

@@ -6,6 +6,5 @@
     "tag-pair": true,
     "spec-char-escape": true,
     "id-unique": true,
-    "src-not-empty": true,
-    "ignore": "build/"
+    "src-not-empty": true
 }

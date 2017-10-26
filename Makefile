@@ -215,7 +215,7 @@ check-tools-js:
 .PHONY: htmlhint
 htmlhint:
 	@$(call HELPTEXT,$@)
-	- [ ! -f .htmlhintrc ] || $(HTMLHINT) | grep -v "Config loaded:"
+	[ ! -f .htmlhintrc ] || $(HTMLHINT) --ignore build/**,node_modules/** | grep -v "Config loaded:"
 
 
 
@@ -223,7 +223,7 @@ htmlhint:
 .PHONY: csslint
 csslint:
 	@$(call HELPTEXT,$@)
-	- [ ! -f .csslintrc ] || $(CSSLINT) .
+	[ ! -f .csslintrc ] || $(CSSLINT) .
 
 
 
@@ -231,7 +231,7 @@ csslint:
 .PHONY: stylelint
 stylelint:
 	@$(call HELPTEXT,$@)
-	- [ ! -f .stylelintrc.json ] || $(STYLELINT) **/*.css
+	[ ! -f .stylelintrc.json ] || $(STYLELINT) **/*.css
 
 
 
@@ -239,7 +239,7 @@ stylelint:
 .PHONY: stylelint-fix
 stylelint-fix:
 	@$(call HELPTEXT,$@)
-	- [ ! -f .stylelintrc.json ] || $(STYLELINT) **/*.css --fix
+	[ ! -f .stylelintrc.json ] || $(STYLELINT) **/*.css --fix
 
 
 
@@ -247,7 +247,7 @@ stylelint-fix:
 .PHONY: jscs
 jscs:
 	@$(call HELPTEXT,$@)
-	- [ ! -f .jscsrc ] || $(JSCS) .
+	[ ! -f .jscsrc ] || $(JSCS) .
 
 
 
@@ -255,7 +255,7 @@ jscs:
 .PHONY: eslint
 eslint:
 	@$(call HELPTEXT,$@)
-	- [ ! -f .eslintrc.json ] || $(ESLINT) .
+	[ ! -f .eslintrc.json ] || $(ESLINT) .
 
 
 

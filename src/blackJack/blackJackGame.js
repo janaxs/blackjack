@@ -6,7 +6,6 @@
 import Deck from "../cardDeck/cardDeck";
 
 export default class BlackJackGame {
-
     /**
      * @constructor
      *
@@ -24,5 +23,8 @@ export default class BlackJackGame {
      * @param {object} options - Configure by sending options.
      */
     draw() {
+        var deck = new Deck();
+
+        console.log(deck);
     }
 }

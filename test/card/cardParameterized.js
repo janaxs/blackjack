@@ -3,6 +3,8 @@
  */
 "use strict";
 
+/* global describe it */
+
 var assert = require("assert");
 const Card = require("../../src/card/card");
 

@@ -6,7 +6,6 @@
 import Card from "../card/card";
 
 export default class cardDeck {
-
     /**
      * @constructor
      *
@@ -24,5 +23,8 @@ export default class cardDeck {
      * @param {object} options - Configure by sending options.
      */
     draw() {
+        var card = new Card();
+
+        console.log(card);
     }
 }

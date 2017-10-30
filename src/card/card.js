@@ -63,7 +63,4 @@ class Card {
     }
 }
 
-
-
-// Export module
 module.exports = Card;

@@ -1,6 +1,14 @@
 Revision history
 ===========================
 
+v1.0.2 (2017-10-30)
+---------------------------
+
+* Add testcase and class cardDeck.
+* Upgrade validators and remove csslint and jcsc.
+* Add scrutinizer as code quality and code coverage tool.
+
+
 v1.0.1 (2017-10-26)
 ---------------------------
 

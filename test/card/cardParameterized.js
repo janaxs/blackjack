@@ -1,5 +1,5 @@
 /**
-* Test for class Car, parameterized version of testsuite.
+* Test for class Card, parameterized version of testsuite.
  */
 "use strict";
 

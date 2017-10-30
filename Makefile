@@ -256,9 +256,9 @@ eslint-fix:
 jsunittest:
 	@$(call HELPTEXT,$@)
 ifneq ($(wildcard .nycrc),)
-	$(NYC) $(MOCHA) --reporter dot 'test/**/*.js'
+	[ ! -d test ] || $(NYC) $(MOCHA) --reporter dot 'test/**/*.js'
 else
-	$(MOCHA) --reporter dot 'test/**/*.js'
+	[ ! -d test ] || $(MOCHA) --reporter dot 'test/**/*.js'
 endif 
 
 

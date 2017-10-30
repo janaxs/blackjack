@@ -8,6 +8,10 @@ Black Jack game
 [![Maintainability](https://api.codeclimate.com/v1/badges/a370febad556e9b8c6a7/maintainability)](https://codeclimate.com/github/janaxs/blackjack/maintainability)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/cde7544d784c425faa7ee660edcc07b6)](https://www.codacy.com/app/mosbth/blackjack?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=janaxs/blackjack&amp;utm_campaign=Badge_Grade)
 
+[![Build Status](https://scrutinizer-ci.com/g/janaxs/blackjack/badges/build.png?b=master)](https://scrutinizer-ci.com/g/janaxs/blackjack/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/janaxs/blackjack/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/janaxs/blackjack/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/janaxs/blackjack/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/janaxs/blackjack/?branch=master)
+
 To show off test tools and a CI chain in JavaScript.
 
 

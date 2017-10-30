@@ -41,14 +41,17 @@ Code coverage report in HTML is available in `build/coverage`.
 Use `docker-compose` to run the validation tools and the testsuite in one of several available Docker containers.
 
 ```
-# node latest
+# node latest (alpine)
 docker-compose run node_latest make check test
+docker-compose run node_alpine make check test
 
-# node v7
+# node v7 (alpine)
 docker-compose run node_7 make check test
+docker-compose run node_7_alpine make check test
 
-# node v6
+# node v6 (alpine)
 docker-compose run node_6 make check test
+docker-compose run node_6_alpine make check test
 ```
 
 

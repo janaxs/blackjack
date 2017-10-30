@@ -1,7 +1,9 @@
 #
 # Image for running test suite.
 #
-FROM node:6
+FROM node:7-alpine
+
+RUN apk add --no-cache make
 
 RUN mkdir -p /app
 WORKDIR /app

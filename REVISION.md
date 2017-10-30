@@ -7,6 +7,7 @@ v1.0.2 (2017-10-30)
 * Add testcase and class cardDeck.
 * Upgrade validators and remove csslint and jcsc.
 * Add scrutinizer as code quality and code coverage tool.
+* Add alpine images for docker.
 
 
 v1.0.1 (2017-10-26)
